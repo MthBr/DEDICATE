@@ -1,0 +1,37 @@
+{
+    "config_version": 2, 
+    "determinism_flag": 1,
+    "exception_handling" : 1,
+    "solver": {
+        "print_grid_stats": 1, 
+        "store_res_history": 1, 
+        "solver": "GMRES", 
+        "print_solve_stats": 1, 
+        "obtain_timings": 1, 
+        "preconditioner": {
+            "error_scaling": 2, 
+            "algorithm": "AGGREGATION", 
+            "solver": "AMG", 
+            "smoother": {
+                "relaxation_factor": 0.9, 
+                "scope": "amg_smoother", 
+                "solver": "BLOCK_JACOBI"
+            }, 
+            "presweeps": 1, 
+            "selector": "SIZE_2", 
+            "max_iters": 1, 
+            "monitor_residual": 1, 
+            "convergence": "RELATIVE_INI_CORE", 
+            "scope": "amg", 
+            "cycle": "W", 
+            "norm": "L1", 
+            "postsweeps": 2
+        },
+        "max_iters": 100, 
+        "monitor_residual": 1, 
+        "gmres_n_restart": 10, 
+        "convergence": "RELATIVE_INI_CORE", 
+        "tolerance": 1e-06, 
+        "norm": "L2"
+   }
+}

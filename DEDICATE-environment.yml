@@ -1,0 +1,21 @@
+name: dedicate-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - "python>=3.6"
+  - numpy
+  - matplotlib
+  - pathlib
+  - pep8
+  - pylint
+  - seaborn
+  - jupyter
+  - scipy
+  - cython  # for pyamgx
+  - "fipy>=3.4"
+  - pytrilinos
+  - pyamg
+  - pip:
+      - -e .
