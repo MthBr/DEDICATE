@@ -5,6 +5,27 @@ dedicate_code
 
 Code Project for the [dedicate - DEDICATE  DElta DIraC ApproximaTions Equations project].
 
+The paper presenint the main results using this code can be read at:
+[Results in Applied Mathematics](https://www.sciencedirect.com/science/article/pii/S259003742100042X)
+and can be cited as:
+```
+@article{Sch2021_RemarksNumericalApproximation,
+  author   = {Schiano Di Cola, Vincenzo Cuomo, Salvatore and Severino, Gerardo},
+  journal  = {Results in Applied Mathematics},
+  title    = {Remarks on the numerical approximation of {Dirac} delta functions},
+  year     = {2021},
+  issn     = {2590-0374},
+  month    = nov,
+  pages    = {100200},
+  volume   = {12},
+  doi      = {10.1016/j.rinam.2021.100200},
+  keywords = {Approximate Dirac delta function, Immersed boundary (IB) method, Level set methods},
+}
+```
+
+
+
+
 # Code Project
 The project is named DEDICATE  DElta DIraC ApproximaTions Equations
 
