@@ -21,8 +21,8 @@ preferred-citation:
   doi: "10.1016/j.rinam.2021.100200"
   journal: "Results in Applied Mathematics"
   month: 11
-  start: 1 # First page number
-  end: 10 # Last page number
+  #start: 1 # First page number
+  #end: 10 # Last page number
   title: "Remarks on the numerical approximation of Dirac delta functions"
   #issue: 1
   volume: 12
