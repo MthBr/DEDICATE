@@ -9,7 +9,6 @@ version: 1.0.0
 doi: 10.5281/zenodo.6184383
 date-released: 2022-02-20
 url: "https://github.com/MthBr/DEDICATE"
-
 preferred-citation:
   type: article
   authors:
