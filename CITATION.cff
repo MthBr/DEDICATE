@@ -23,9 +23,9 @@ preferred-citation:
   month: 11
   start: 1 # First page number
   end: 10 # Last page number
-  title: "My awesome research software"
+  title: "Remarks on the numerical approximation of Dirac delta functions"
   issue: 1
-  volume: 1
+  volume: 12
   year: 2021
   
   
