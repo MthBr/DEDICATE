@@ -24,7 +24,7 @@ preferred-citation:
   start: 1 # First page number
   end: 10 # Last page number
   title: "Remarks on the numerical approximation of Dirac delta functions"
-  issue: 1
+  #issue: 1
   volume: 12
   year: 2021
   
