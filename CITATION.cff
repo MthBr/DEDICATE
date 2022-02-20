@@ -16,7 +16,7 @@ preferred-citation:
     given-names: "Vincenzo"
     orcid: "https://orcid.org/0000-0001-7486-4918"
   - family-names: "Cuomo"
-   given-names: "Salvatore"
+    given-names: "Salvatore"
     orcid: "https://orcid.org/0000-0003-4128-2588"
   - family-names: "Severino"
     given-names: "Gerardo"
@@ -24,7 +24,7 @@ preferred-citation:
   doi: "10.1016/j.rinam.2021.100200"
   journal: "Results in Applied Mathematics"
   month: 11
-  start: 100200 # First page number
+  #start: 100200 # First page number
   #end: 10 # Last page number
   title: "Remarks on the numerical approximation of Dirac delta functions"
   #issue: 1
