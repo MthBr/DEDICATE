@@ -5,9 +5,10 @@ dedicate_code
 
 Code Project for the [dedicate - DEDICATE  DElta DIraC ApproximaTions Equations project].
 
-The paper presenint the main results using this code can be read at:
-[Results in Applied Mathematics](https://www.sciencedirect.com/science/article/pii/S259003742100042X)
-and can be cited as:
+The paper presenting the major conclusions obtained with this code is available at: the journal [Results in Applied Mathematics](https://www.sciencedirect.com/science/article/pii/S259003742100042X).
+
+
+This study can be cited as follows: 
 ```
 @article{Sch2021_RemarksNumericalApproximation,
   author   = {Schiano Di Cola, Vincenzo Cuomo, Salvatore and Severino, Gerardo},
