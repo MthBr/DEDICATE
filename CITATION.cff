@@ -12,15 +12,15 @@ url: "https://github.com/MthBr/DEDICATE"
 preferred-citation:
   type: article
   authors:
-  - family-names: "Lisa"
-    given-names: "Mona"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-  - family-names: "Bot"
-    given-names: "Hew"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-  doi: "10.0000/00000"
-  journal: "Journal Title"
-  month: 9
+  - family-names: "Schiano Di Cola"
+    given-names: "Vincenzo"
+    orcid: "https://orcid.org/0000-0001-7486-4918"
+  - family-names: "Cuomo"
+    given-names: "Salvatore"
+    orcid: "https://orcid.org/0000-0003-4128-2588"
+  doi: "10.1016/j.rinam.2021.100200"
+  journal: "Results in Applied Mathematics"
+  month: 11
   start: 1 # First page number
   end: 10 # Last page number
   title: "My awesome research software"
