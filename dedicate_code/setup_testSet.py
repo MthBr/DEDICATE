@@ -84,12 +84,12 @@ id=  f'Test_{_test_set_cofig+_dim_set}'
 
 # controls
 import math
-assert isinstance(correl, float)
+#assert isinstance(correl, float)
 assert isinstance(mc_runs, int)
 assert isinstance(dims, int)
 assert isinstance(D, float)
 assert isinstance(convect, bool)
-assert isinstance(is_log_normal, bool)
+#assert isinstance(is_log_normal, bool)
 assert isinstance(eq_formula, str)
 #assert isinstance(text_long, str) #eq_formula2
 #assert isinstance(compact_text, str)
@@ -129,7 +129,7 @@ setup_dict['eq_formula'] = eq_formula
 setup_dict['eq_formula2'] = eq_formula2  ###eq_formula2    text_long
 
 
-setup_dict['compactxt_field'] =  f'cor{int(correl*1000)} variance {int(var*1000)}'  #
+#setup_dict['compactxt_field'] =  f'cor{int(correl*1000)} variance {int(var*1000)}'  #
 setup_dict['compactxt_mesh'] =  f'mesh{nxyz}'  #
 setup_dict['compactxt_eq'] =  f'D{int(D*10)}_dlt:{delta_type}'  #
 setup_dict['compactxt_solver'] = f'GMRE{os.environ["FIPY_SOLVERS"]}'  #TODO amgx....
@@ -138,7 +138,7 @@ setup_dict['compactxt_delta'] = f'dlt:{delta_type}_pnt{coeff_delta_mesh}'  #TODO
 
 
 
-setup_dict['filed_hash_name'] = f"dim{dims}_isLN{is_log_normal}_istr{start}_ilen{leng}_cor{int(correl*100)}_var{int(var*100)}_n{nxyz}"
+#setup_dict['filed_hash_name'] = f"dim{dims}_isLN{is_log_normal}_istr{start}_ilen{leng}_cor{int(correl*100)}_var{int(var*100)}_n{nxyz}"
 setup_dict['sol_hash_name'] = f"{id}_{dims}d_{setup_dict['compactxt_eq']}_{setup_dict['compactxt_mesh']}"
 
 

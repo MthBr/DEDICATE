@@ -8,10 +8,8 @@ _local_dir = True # in case you want to redirect the output somewhere else
 if _local_dir:
     data_dir = Path(__file__).resolve().parents[1] / 'data'
     reportings_dir = Path(__file__).resolve().parents[1].joinpath('reports')
-    log_dir = Path(__file__).resolve().parents[1].joinpath('data', 'log_files')
+    log_dir = Path(__file__).resolve().parents[2].joinpath('log_files')
     
-    data_origianl_dir = Path(__file__).resolve().parents[4].joinpath('Local Code','data')
-
 else:
     data_dir = Path(__file__).resolve().parents[4].joinpath('Projects','Local Code', 'data')
     raw_data_dir = Path(__file__).resolve().parents[4].joinpath('Projects', 'Local Code', 'data', 'raw')
