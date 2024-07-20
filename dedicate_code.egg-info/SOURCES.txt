@@ -2,47 +2,39 @@ README.md
 setup.py
 dedicate_code/__init__.py
 dedicate_code/config.py
-dedicate_code/context.py
 dedicate_code/custom_funcs.py
-dedicate_code/setup_delta_tests.py
 dedicate_code/setup_testSet.py
 dedicate_code.egg-info/PKG-INFO
 dedicate_code.egg-info/SOURCES.txt
 dedicate_code.egg-info/dependency_links.txt
 dedicate_code.egg-info/top_level.txt
 dedicate_code/data_etl/__init__.py
-dedicate_code/data_etl/etl.py
 dedicate_code/data_etl/etl_utils.py
 dedicate_code/data_exp/__init__.py
-dedicate_code/data_exp/explore_field.py
-dedicate_code/data_exp/explore_mean_var_field.py
-dedicate_code/data_exp/explore_single_sol.py
-dedicate_code/data_exp/explore_utils_fileds.py
-dedicate_code/data_exp/explore_utils_sols.py
+dedicate_code/data_exp/plot_delta_3d.py
+dedicate_code/data_exp/plot_deltas.py
+dedicate_code/data_exp/plot_deltas_1d_2d.py
+dedicate_code/data_exp/plot_deltas_hosseni.py
+dedicate_code/data_exp/plot_deltas_paper 2d.py
+dedicate_code/data_exp/plot_deltas_paper.py
+dedicate_code/data_exp/plot_deltas_v0.py
+dedicate_code/data_exp/test_delta.py
 dedicate_code/feature_eng/__init__.py
 dedicate_code/feature_eng/delta_func_utils.py
-dedicate_code/feature_eng/delta_func_utils_bkp.py
-dedicate_code/feature_eng/monte_carlo_solutions.py
 dedicate_code/feature_eng/pyamgx_solver.py
 dedicate_code/feature_eng/solver4stationary_util.py
 dedicate_code/feature_eng/solver_util.py
-dedicate_code/model/__init__.py
-dedicate_code/model/expore_sol.py
-dedicate_code/model/stat_generator.py
-dedicate_code/model/util_stats_pdf.py
-dedicate_code/model1D/__init__.py
-dedicate_code/model1D/gen_mc_pdf.py
-dedicate_code/model1D/gen_mc_pdfVIDEO.py
-dedicate_code/model1D/gen_mc_pdf_bkp.py
-dedicate_code/model1D/utils_field.py
-dedicate_code/model1D/utils_pde.py
-dedicate_code/model1D/utils_pdf.py
-dedicate_code/model2D/2D_gen_mc_pdfVIDEO.py
-dedicate_code/model2D/__init__.py
-dedicate_code/model2D/gen_mc_pdf.py
-dedicate_code/model2D/gen_mc_pdfVIDEO.py
-dedicate_code/model2D/gen_mc_pdf_bkp.py
-dedicate_code/model2D/test_2d_plotting.py
-dedicate_code/model2D/utils_field.py
-dedicate_code/model2D/utils_pde.py
-dedicate_code/model2D/utils_pdf.py
+dedicate_code/tests_generator/__init__.py
+dedicate_code/tests_generator/order_12d csv_imgsd BKP.py
+dedicate_code/tests_generator/order_12d csv_imgsd.py
+dedicate_code/tests_generator/order_1d _multi.py
+dedicate_code/tests_generator/order_1d _multiFull.py
+dedicate_code/tests_generator/order_1d csv.py
+dedicate_code/tests_generator/order_1d solver.py
+dedicate_code/tests_generator/order_2d _multi.py
+dedicate_code/tests_generator/order_2d _multi_bkp.py
+dedicate_code/tests_generator/order_2d _solver.py
+dedicate_code/tests_generator/order_2d csv.py
+dedicate_code/tests_generator/order_2d.py
+dedicate_code/tests_generator/single_2d.py
+dedicate_code/tests_generator/utils_delta_stats.py
