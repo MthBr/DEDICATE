@@ -4,7 +4,7 @@ channels:
   - defaults
 dependencies:
   - pip
-  - "python<=3.9"
+  - "python>=3.9,<=3.12" #at least 3.8 for debug
   - numpy
   - matplotlib
   - pathlib
@@ -15,7 +15,7 @@ dependencies:
   - scipy
   - cython  # for pyamgx
   - "fipy>=3.4"
-  - pytrilinos
+  #- pytrilinos # no more updated
   - pyamg
   - pip:
       - -e .

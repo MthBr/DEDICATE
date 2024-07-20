@@ -81,7 +81,7 @@ export AMGX_DIR=/home/quasalab/Projects_LAB/AMGX-2.4.0
 cd pyamgx-main
 pip install .
 
-
+#yamgx/System.pyx:94:30: Cannot assign type 'void (char *, int) except *' to 'AMGX_print_callback' (alias of 'void (*)(const char *, int) noexcept'). 
 
 
 
